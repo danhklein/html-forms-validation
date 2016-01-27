@@ -34,3 +34,22 @@ h1 {
 .row input {
   width: 100%;
 }
+
+/*input.warning {
+  border-color: red;
+  border-radius:;
+  color: red;
+  box-shadow: 1px 2f3f4d;
+}*/
+
+input:valid {
+  border-color: green;
+}
+
+/*input:invalid {
+  border-color: red;
+}
+
+input:focus:invalid {
+  outline: none;
+}*/

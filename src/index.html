@@ -3,34 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>HTML &amp; JS Form Validation</title>
-    
+
     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-    
+
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    
+
     <div class="container">
       <h1>Signup Form</h1>
       <form>
         <div class="row">
           <label for="preferredName">Preferred Name</label>
-          <input type="text">
+          <input type="text" name="preferredName" autofocus
+          required title="liar!">
         </div>
 
         <div class="row">
           <label for="lastName">Last Name</label>
-          <input type="text">
+          <input type="text" required>
         </div>
 
         <div class="row">
           <label for="email">Email</label>
-          <input type="text">
+          <input type="email" required>
         </div>
 
         <div class="row">
           <label for="password">Password</label>
-          <input type="text">
+          <input type="password" required>
         </div>
 
         <input type="submit">
